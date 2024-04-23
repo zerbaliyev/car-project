@@ -1,9 +1,12 @@
+import Footer from "../modules/footer/Footer"
 import Header from "../modules/header/Header"
 
-const Layout = () => {
+const Layout = ({children}) => {
   return (
     <>
-    <Header />
+      <Header />
+      {children}
+      <Footer />
     </>
   )
 }
