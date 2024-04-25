@@ -1,8 +1,9 @@
-export default function Home() {
+import Main from "@/components/modules/main/Main"
+
+export default function page() {
   return (
-    <main className="">
-      
-    </main>
-    
-  );
+    <div>
+      <Main />
+    </div>
+  )
 }

@@ -1,5 +1,4 @@
 import React from 'react'
-import Filter from '../Filter'
 
 export default function SearchInput() {
   return (
@@ -12,7 +11,9 @@ export default function SearchInput() {
             placeholder='Search something here'
             className='focus:outline-none'
         />
-        <Filter />
+        <button className='ml-20'>
+          <img src="../../../imgs/icons/filter.svg" alt="" />
+        </button>    
     </label>
   )
 }
