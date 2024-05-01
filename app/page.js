@@ -1,13 +1,13 @@
+import FilterSection from "@/components/filter/FilterSection"
 import Main from "@/components/main/Main"
-import InfoSection from "@/components//info/InfoSection"
 import CarSection from "@/components/sections/CarSection"
 
 export default function page() {
   return (
-    <div>
+    <main>
       <Main />
-      <InfoSection />
+      <FilterSection />
       <CarSection />
-    </div>
+    </main>
   )
 }

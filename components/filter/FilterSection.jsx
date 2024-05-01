@@ -1,32 +1,27 @@
+import FilterSection from "./FilterSectionCity";
+import FilterSectionDate from "./FilterSectionDate";
+import FilterSectionTime from "./FilterSectionTime";
+
 export default function () {
   return (
-    <section className=" flex gap-2 px-16">
+    <section className=" flex gap-5 px-16">
         <div className="bg-white w-2/4 h-36 rounded-2xl">
             <h2 className="flex px-10 pt-4 gap-2">
               <img className="" src="../../imgs/icons/ellipse-1.svg" alt="" />
               Pick - Up
               </h2>
-          <div className="flex">
+          <div className="flex gap-14">
             <div>
               <h2 className="flex font-bold px-10 pt-3">Locations</h2>
-              <p className="flex px-7 pt-1">
-                Select your city
-                <img className=" px-2 pt-1" src="../../imgs/icons/outline.svg" alt="" />
-              </p>
+              <FilterSection />
             </div>
             <div>
               <h2 className="flex font-bold px-10 pt-3">Date</h2>
-              <p className="flex px-7 pt-1">
-                Select your date
-                <img className=" px-2 pt-1" src="../../imgs/icons/outline.svg" alt="" />
-              </p>
+              <FilterSectionDate />
             </div>
             <div>
               <h2 className="flex font-bold px-10 pt-3">Time</h2>
-              <p className="flex px-7 pt-1">
-                Select your time
-                <img className=" px-2 pt-1" src="../../imgs/icons/outline.svg" alt="" />
-              </p>
+              <FilterSectionTime />
             </div>
           </div>
         </div>
@@ -40,27 +35,18 @@ export default function () {
               <img className="" src="../../imgs/icons/ellipse-1.svg" alt="" />
               Pick - Up
               </h2>
-          <div className="flex">
+          <div className="flex gap-14">
             <div>
               <h2 className="flex font-bold px-10 pt-3">Locations</h2>
-              <p className="flex px-7 pt-1">
-                Select your city
-                <img className=" px-2 pt-1" src="../../imgs/icons/outline.svg" alt="" />
-              </p>
+              <FilterSection />
             </div>
             <div>
               <h2 className="flex font-bold px-10 pt-3">Date</h2>
-              <p className="flex px-7 pt-1">
-                Select your date
-                <img className=" px-2 pt-1" src="../../imgs/icons/outline.svg" alt="" />
-              </p>
+              <FilterSectionDate />
             </div>
             <div>
               <h2 className="flex font-bold px-10 pt-3">Time</h2>
-              <p className="flex px-7 pt-1">
-                Select your time
-                <img className=" px-2 pt-1" src="../../imgs/icons/outline.svg" alt="" />
-              </p>
+              <FilterSectionTime />
             </div>
           </div>
         </div>

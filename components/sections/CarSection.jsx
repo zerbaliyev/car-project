@@ -38,7 +38,7 @@ export default function CarSection() {
 
         <div className='flex gap-3'>
             {cars.map((car) => (
-                <div className='w-1/4 bg-primary-500 h-10'>
+                <div className='w-1/4'>
                     <Cart
                     title={car.name}
                     category={car.category}
