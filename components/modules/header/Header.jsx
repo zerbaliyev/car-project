@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <>
       <header className='flex items-center justify-between px-16 py-10 border border-[#c3d4e966] bg-white'>
-        <Link href="/" className='text-blue-800 font-size text-3xl font-bold'>MORENT</Link>
+        <Link href="/" className='text-blue-800 font-size text-3xl font-bold sm:360px flex-wrap'>MORENT</Link>
         <SearchInput />
         <HeaderActions />
       </header> 

@@ -3,7 +3,7 @@ import React from 'react'
 export default function FilterSectionTime() {
   return (
     <>
-        <select>
+        <select className='cursor-pointer'>
             <option value="#">Select your time</option>
             <option value="#">08:00</option>
             <option value="#">14:00</option>
