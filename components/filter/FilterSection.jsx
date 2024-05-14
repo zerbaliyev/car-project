@@ -26,11 +26,11 @@ export default function () {
           </div>
         </div>
 
-        <button className="bg-primary-500 rounded h-10 w-12 mt-10 ">
+        <button className="bg-blue-800 rounded h-10 w-12 mt-10 hover:bg-blue-500 ">
           <img className="px-3" src="../../imgs/icons/swap.svg" alt="" />
         </button>
 
-        <div className="bg-white w-2/4 h-36 rounded-2xl ">
+        <div className="bg-white w-2/4 h-36 rounded-2xl">
             <h2 className="flex px-10 pt-4 gap-2">
               <img className="" src="../../imgs/icons/ellipse-1.svg" alt="" />
               Pick - Up
