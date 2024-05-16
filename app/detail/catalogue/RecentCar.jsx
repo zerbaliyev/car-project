@@ -30,7 +30,7 @@ export default function CarSection() {
             <h2>Recent Car</h2>
             <Link className='text-blue-700 hover:text-blue-500 text-1xl font-bold' href="/car">Wiew All</Link>
         </div>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
                 {cars.map((car) => (
                     <Cart
                     title={car.name}

@@ -3,7 +3,7 @@ import React from 'react'
 export default function FilterSection() {
   return (
     <>
-        <select className='cursor-pointer pl-9'>
+        <select className='cursor-pointer pl-9 hover:text-neutral-400'>
             <option value="#">Select your city</option>
             <option value="Az">Baku</option>
             <option value="Rus">Moskva</option>

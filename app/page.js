@@ -12,4 +12,4 @@ export default function page() {
       <RecomndationCar />
     </main>
   )
-}
+} 

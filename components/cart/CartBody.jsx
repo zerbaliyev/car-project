@@ -3,7 +3,7 @@ import React from 'react'
 const CartBody = ({image}) => {
   return (
     <div>
-      <h2>{image}</h2>
+      <img className=' text-center shadow-xl' src="../../../imgs/icons/car-gray-2.svg" alt="" />
     </div>
   )
 }

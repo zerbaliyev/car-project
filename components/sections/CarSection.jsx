@@ -5,26 +5,22 @@ const cars = [
     {
         name:"Koenigsegg",
         category: "Sport",
-        image:"../../imgs/icons/car-white-2.svg",
         price: "$99.00",
         
     } ,
     {
         name:"Nissan GT - R",
         category: "Sport",
-        image:"bb",
         price: "$80.00",
     },
     {
         name:"Rolls - Royce",
         category: "Sedan",
-        image:"cc",
         price: "$96.00",
     } ,
     {
         name:"Nissan GT - R",
         category: "Sport",
-        image:"cc",
         price: "$80.00",
     } ,
 ];
