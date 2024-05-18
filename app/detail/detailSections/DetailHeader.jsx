@@ -1,4 +1,4 @@
-import Star from '@/components/icon/Star'
+import Stars from '@/components/Star'
 import LinearHeart from '@/components/liner/LinearHeart'
 import React from 'react'
 
@@ -9,8 +9,8 @@ export default function DetailHeader() {
         <h2 className="text-3xl font-bold px-6 py-6">Nissan GT-R</h2>
         <LinearHeart />
       </span>
-      <span className='flex'>
-        <Star />
+      <span className='flex gap-4 px-6'>
+        <Stars selectedStars={4} maxStars={5} />
         <p className='text-xl text-gray-500'>440+ Reviewer</p>
       </span>
     </div>

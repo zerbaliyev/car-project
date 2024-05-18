@@ -30,7 +30,7 @@ export default function CarSection() {
     <section className='w-full flex flex-col gap-5 pb-6 px-16 pt-4'>
         <div className='flex items-center justify-between'>
             <h2>Popular Car</h2>
-            <Link className='text-blue-700 hover:text-blue-500 text-1xl font-bold' href="/car">Wiew All</Link>
+            <Link className='text-blue-700 hover:text-blue-500 text-1xl font-bold' href="">Wiew All</Link>
         </div>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8'>
                 {cars.map((car) => (

@@ -1,4 +1,4 @@
-import React from 'react'
+import Image from 'next/image'
 
 export default function MainWhiteCar() {
   return (
@@ -14,9 +14,13 @@ export default function MainWhiteCar() {
           <div className='pl-16 py-2'>
             <button className='bg-blue-900 text-white px-5 py-2 rounded hover:bg-blue-500'>Rental Car</button>
           </div>
-          <button className='px-40'>
-            <img  src="../../imgs/icons/white-car-1.svg" alt="" />
-          </button>
+          <div className='px-40'>
+            <Image 
+              src="/imgs/icons/white-car-1.svg"
+              width={300}
+              height={1}
+              alt="" />
+          </div>
     </div>
   )
 }

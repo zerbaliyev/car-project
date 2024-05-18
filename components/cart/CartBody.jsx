@@ -1,10 +1,10 @@
-import React from 'react'
+import Link from 'next/link';
 
 const CartBody = ({image}) => {
   return (
-    <div>
-      <img className=' text-center shadow-xl' src="../../../imgs/icons/car-gray-2.svg" alt="" />
-    </div>
+    <Link href="/detail">
+      <img className=' text-center shadow-xl hover:text-gray-500' src="../../../imgs/icons/car-gray-2.svg" alt="" />
+    </Link>
   )
 }
 export default CartBody;
