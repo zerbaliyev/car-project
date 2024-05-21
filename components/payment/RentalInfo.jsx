@@ -14,14 +14,14 @@ const RentalInfo = () => {
           <p>Step 1 of 4</p>
       </div>
 
-      <h2 className="flex px-6 gap-2 py-6">
+      <div className="flex px-6 gap-2 py-6">
         <Image className="" 
         src="/imgs/icons/ellipse-1.svg" 
         width={15}
         height={1}
         alt="" />
         Pick - Up
-      </h2>
+      </div>
 
       <OptionSelect />
 

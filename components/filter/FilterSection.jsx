@@ -1,3 +1,4 @@
+import Image from "next/image";
 import FilterSection from "./FilterSectionCity";
 import FilterSectionDate from "./FilterSectionDate";
 import FilterSectionTime from "./FilterSectionTime";
@@ -6,10 +7,14 @@ export default function () {
   return (
     <section className=" flex gap-5 px-16">
         <div className="bg-white w-2/4 h-36 rounded-2xl">
-            <h2 className="flex px-10 pt-4 gap-2">
-              <img className="" src="../../imgs/icons/ellipse-1.svg" alt="" />
+            <div className="flex px-10 pt-4 gap-2">
+              <Image className="" 
+              src="../../imgs/icons/ellipse-1.svg" 
+              width={15}
+              height={1}
+              alt="" />
               Pick - Up
-            </h2>
+            </div>
           <div className="flex gap-14">
             <div>
               <h2 className="flex font-bold px-10 pt-3">Locations</h2>
