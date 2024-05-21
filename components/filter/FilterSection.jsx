@@ -9,7 +9,7 @@ export default function () {
             <h2 className="flex px-10 pt-4 gap-2">
               <img className="" src="../../imgs/icons/ellipse-1.svg" alt="" />
               Pick - Up
-              </h2>
+            </h2>
           <div className="flex gap-14">
             <div>
               <h2 className="flex font-bold px-10 pt-3">Locations</h2>
