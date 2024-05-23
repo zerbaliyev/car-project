@@ -1,6 +1,5 @@
 import Stars from '@/components/Star'
 import LinearHeart from '@/components/liner/LinearHeart'
-import React from 'react'
 
 export default function DetailHeader() {
   return (

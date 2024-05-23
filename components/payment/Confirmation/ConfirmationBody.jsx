@@ -71,7 +71,7 @@ const ConfirmationBody = () => {
           </FormItem>
         )}
       />
-      <Button type="submit">Submit</Button>
+      <Button className="bg-blue-700 hover:bg-blue-400 px-8 py-6" type="RentNow">Rent Now</Button>
     </form>
   </Form>
 )
