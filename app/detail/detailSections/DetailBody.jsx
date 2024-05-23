@@ -27,7 +27,7 @@ export default function DetailBody() {
                 </p>
                 <p className='flex gap-10'>
                     <span className='text-3xl text-gray-400'>Gasoline</span>
-                    <span className='text-3xl text-slate-600 font-medium pl-10'>70L</span>
+                    <span className='text-3xl text-slate-600 font-medium pl-20'>70L</span>
                 </p>
             </h2>
         </div>
