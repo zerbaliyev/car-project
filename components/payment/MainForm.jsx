@@ -8,7 +8,7 @@ const MainForm = () => {
   return (
     <div className=''>
       <div className=' flex flex-col py-6 px-6 gap-y-4'>
-        <div className='flex gap-8'>
+        <div className='flex flex-wrap sm:flex-row gap-8'>
           <BillingInfo />
           <RentalSummary />
         </div>

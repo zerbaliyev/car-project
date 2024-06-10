@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function MainWhiteCar() {
   return (
-    <div className='bg-blue-400 w-3/5 rounded-2xl'>
+    <div className='bg-blue-400  rounded-2xl'>
           <h2 className='text-white text-3xl font-bold px-16 py-5'>
             The Best Platform <br />
             for Car Rental
@@ -16,7 +16,7 @@ export default function MainWhiteCar() {
           </div>
           <div className='px-40'>
             <Image 
-              src="/imgs/icons/white-car-1.svg"
+              src="/imgs/cars-img/car-white-2.svg"
               width={300}
               height={1}
               alt="" />

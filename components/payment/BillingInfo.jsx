@@ -46,7 +46,7 @@ const BillingInfo = () => {
 
 
   return (
-    <section className='bg-white rounded w-3/5 px-6 py-6 pt-6'>
+    <section className='bg-white rounded lg:w-3/5  px-6 py-6 pt-6'>
       <div className='flex justify-between'>
         <div>
           <h2 className='font-bold text-xl'>Billing Info</h2>
@@ -56,7 +56,7 @@ const BillingInfo = () => {
       </div>
 
         <Form {...form}>
-        <form onSubmit={form.handleSubmit(onSubmit)} className="grid grid-cols-2 gap-4">
+        <form onSubmit={form.handleSubmit(onSubmit)} className="grid md:grid-cols-2 grid-cols-1 gap-4">
           <FormField
             control={form.control}
             name="username"

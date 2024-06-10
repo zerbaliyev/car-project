@@ -3,7 +3,7 @@ import MainWhiteCar from "./MainWhiteCar";
 
 export default function () {
   return (
-      <section className=" flex gap-5 px-16 py-5 grid-cols-1 md:">
+      <section className="grid gap-5 lg:py-5 grid-cols-1 md:grid-cols-2">
         <MainWhiteCar />
         <MainGrayCar />
       </section>

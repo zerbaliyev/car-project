@@ -2,11 +2,11 @@ import CartBody from "./CartBody";
 import CartFooter from "./CartFooter";
 import CartHeader from "./CartHeader";
 
-const  Cart = ({title, category, price, image}) => {
+const  Cart = ({title, category, price, image, carInfo}) => {
   return (
     <div className="bg-white rounded-lg  p-6">
         <CartHeader title={title} category={category} />
-        <CartBody image={image} />
+        <CartBody image={image} carInfo={carInfo} />
         <CartFooter price={price} />
     </div>
   )

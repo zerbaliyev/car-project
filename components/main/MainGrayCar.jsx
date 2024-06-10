@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function MainGrayCar() {
   return (
-    <div className='bg-blue-800 w-3/5 rounded-2xl'>
+    <div className='bg-blue-800  rounded-2xl'>
       <h2 className='text-white text-3xl font-bold px-16 py-5'>
         Easy way to rent <br />
         a car at a low price
@@ -17,7 +17,7 @@ export default function MainGrayCar() {
 
       <div className='px-40'>
         <Image 
-          src="/imgs/icons/gray-car-1.svg" 
+          src="/imgs/cars-img/car-gray-2.svg" 
           width={300}
           height={1}
           alt="" />

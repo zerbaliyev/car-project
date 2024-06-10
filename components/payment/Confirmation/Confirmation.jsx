@@ -5,7 +5,7 @@ import ConfirmationFooter from './ConfirmationFooter'
 
 const Confirmation = () => {
   return (
-    <section className='bg-white rounded w-3/5 px-6 py-6 pt-6'>
+    <section className='bg-white rounded lg:w-3/5 px-6 py-6 pt-6'>
         <ConfirmationHeader />
         <ConfirmationBody />
         <ConfirmationFooter />

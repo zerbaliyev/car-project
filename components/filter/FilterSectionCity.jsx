@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function FilterSection() {
+export default function FilterSection({title}) {
   return (
     <>
         <select className='cursor-pointer pl-9 hover:text-neutral-400'>

@@ -56,7 +56,7 @@ const DropOff = () => {
       </div>
 
       <Form {...form}>
-      <form onSubmit={form.handleSubmit(onSubmit)} className="grid grid-cols-2 gap-4">
+      <form onSubmit={form.handleSubmit(onSubmit)} className="grid md:grid-cols-2 grid-cols-1 gap-4">
         <FormField
           control={form.control}
           name="locations"

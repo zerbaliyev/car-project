@@ -5,7 +5,7 @@ import RecomndationCar from "@/components/sections/RecomendationCar"
 
 export default function page() {
   return (
-    <main>
+    <main className="lg:px-16 px-4">
       <Main />
       <FilterSection />
       <PopularCar />
