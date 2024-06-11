@@ -5,27 +5,27 @@ const cars = [
     {
         name:"Koenigsegg",
         category: "Sport",
-        image:"../../imgs/icons/car-white-2.svg",
+        image:"/imgs/cars-img/car-white-2.svg",
         price: "$99.00",
         
     } ,
     {
         name:"Nissan GT - R",
         category: "Sport",
-        image:"bb",
+        image:"/imgs/cars-img/car-gray-2.svg",
         price: "$80.00",
     },
     {
         name:"Rolls - Royce",
         category: "Sedan",
-        image:"cc",
+        image:"/imgs/cars-img/car-blue-1.svg",
         price: "$96.00",
     } ,
 ];
 
 export default function CarSection() {
   return (
-    <section className='w-full flex flex-col gap-5 pb-6 px-16 pt-4'>
+    <section className='w-full flex flex-col gap-5 pb-6 pt-4'>
         <div className='flex items-center justify-between'>
             <h2>Recent Car</h2>
             <Link className='text-blue-700 hover:text-blue-500 text-1xl font-bold' href="/car">Wiew All</Link>

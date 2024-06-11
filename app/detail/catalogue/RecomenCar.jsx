@@ -6,20 +6,20 @@ const cars = [
     {
         name:"Koenigsegg",
         category: "Sport",
-        image:"../../imgs/icons/car-white-2.svg",
+        image:"/imgs/cars-img/car-jip-gray.png",
         price: "$99.00",
         
     } ,
     {
         name:"Nissan GT - R",
         category: "Sport",
-        image:"bb",
+        image:"/imgs/cars-img/car-brown.png",
         price: "$80.00",
     },
     {
         name:"Rolls - Royce",
         category: "Sedan",
-        image:"cc",
+        image:"/imgs/cars-img/car-jip-blue-2.png",
         price: "$96.00",
     } ,
 ];
@@ -27,7 +27,7 @@ export default function RecomndationCar() {
   return (
     
        
-    <section className='w-full flex flex-col gap-5 pb-8  px-16 pt-4'>
+    <section className='flex flex-col gap-5 pb-8 pt-4'>
         <div className='flex items-center justify-between'>
             <h2>Recomendation Car</h2>
             <Link className='text-blue-700 hover:text-blue-500 text-1xl font-bold' href="/car">Wiew All</Link>
